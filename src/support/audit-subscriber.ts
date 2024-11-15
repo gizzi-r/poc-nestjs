@@ -18,10 +18,10 @@ export class AuditSubscriber implements EntitySubscriberInterface {
     }
   }
 
-  beforeUpdate(event: UpdateEvent<Auditable>) {
+  beforeUpdate() {
     debugger;
   }
-  beforeRemove(event: RemoveEvent<Auditable>) {
+  beforeRemove() {
     debugger;
   }
 }
